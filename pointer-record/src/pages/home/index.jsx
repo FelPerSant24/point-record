@@ -51,6 +51,7 @@ function Home() {
     return `${weekDay} - ${day}  ${month}  ${year}`
   }
 
+  //aqui nessa porra
   return (
     <div className="flex bg-gray-100 min-h-screen">
       {/* Sidebar */}
@@ -59,12 +60,12 @@ function Home() {
           <svg
             className="w-8 h-8 text-blue-600 mr-2"
             fill="currentColor"
-            viewBox="0 0 20 20"
+            viewBox="0 0 40 20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM5 9a1 1 0 112 0 1 1 0 01-2 0zm6 0a1 1 0 112 0 1 1 0 01-2 0zm-3 7a4 4 0 01-4-4h8a4 4 0 01-4 4z"></path>
           </svg>
-          <span className="text-xl font-bold text-gray-800">Company Logo</span>
+          <span className="text-xl font-bold text-gray-800">MonkeyCompany</span>
         </div>
         <nav className="w-full">
           <ul className="space-y-2">
@@ -80,7 +81,7 @@ function Home() {
                 >
                   <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
                 </svg>
-                Dashboard
+                home page
               </a>
             </li>
             <li>
@@ -169,7 +170,7 @@ function Home() {
           <div className="text-gray-600 font-medium">{formatDate(currentTime)}</div>
           <div className="flex items-center">
             <div>
-              <div className="font-semibold text-gray-800">Alds Nam</div>
+              <div className="font-semibold text-gray-800">Nome do agente</div>
               <div className="text-sm text-gray-500">Junior Posição</div>
             </div>
           </div>
@@ -177,7 +178,7 @@ function Home() {
 
         {/* Time Tracking Card */}
         <div className="bg-white rounded-lg shadow-md p-8 mb-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Ponto Eletrônico</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">electronic point</h2>
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <span className="text-5xl font-bold text-gray-800">{formatTime(currentTime)}</span>
@@ -217,23 +218,10 @@ function Home() {
         {/* My Timesheet & Quick Links */}
         <div className="bg-white rounded-lg shadow-md p-8">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-2xl font-bold text-gray-800">My Timesheet</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Point history</h2>
             <div className="flex items-center space-x-2 text-blue-600 font-semibold cursor-pointer hover:text-blue-700">
-              <span>Quick Links</span>
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                ></path>
-              </svg>
+              
+              
             </div>
           </div>
           <div className="overflow-x-auto">
@@ -241,17 +229,17 @@ function Home() {
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"></th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">10c204t</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Project Name</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Task</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">End Ham</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"></th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Data</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Entrada</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Almoço</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Saida</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Horas trabalhada</th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
                 <tr>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <input type="checkbox" className="form-checkbox" />
+                    
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1027 H023</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Project</td>
@@ -263,7 +251,7 @@ function Home() {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <input type="checkbox" className="form-checkbox" />
+                    
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1024 N024</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Ptoat</td>
@@ -275,7 +263,7 @@ function Home() {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <input type="checkbox" className="form-checkbox" />
+                   
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1027 H027</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Plojek</td>
@@ -285,7 +273,7 @@ function Home() {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <input type="checkbox" className="form-checkbox" />
+                   
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1027 H027</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Timekuoar</td>
@@ -297,11 +285,6 @@ function Home() {
                 </tr>
               </tbody>
             </table>
-          </div>
-          <div className="flex justify-center mt-6">
-            <button className="bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors duration-200">
-              Add Entry
-            </button>
           </div>
         </div>
       </div>
