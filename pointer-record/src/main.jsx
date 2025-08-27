@@ -5,6 +5,8 @@ import './index.css'
 import Home from "../src/pages/home"
 import Reports from './pages/reports'
 import Layout from './components/Layout'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +16,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="reports" element={<Layout><Reports/></Layout>}/>
       </Routes>
     </BrowserRouter>
+    <ToastContainer />
   </StrictMode>
 )
