@@ -13,7 +13,7 @@ function Sidebar() {
         >
           <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM5 9a1 1 0 112 0 1 1 0 01-2 0zm6 0a1 1 0 112 0 1 1 0 01-2 0zm-3 7a4 4 0 01-4-4h8a4 4 0 01-4 4z"></path>
         </svg>
-        <span className="text-xl font-bold text-gray-800">MonkeyCompany</span>
+        <span className="text-xl font-bold text-gray-800">Confeitaria Pita</span>
       </div>
       <nav className="w-full">
         <ul className="space-y-2">

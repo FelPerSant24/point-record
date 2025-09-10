@@ -64,14 +64,14 @@ function Home() {
           <div className="flex items-center">
             <div>
               <div className="font-semibold text-gray-800">Nome do agente</div>
-              <div className="text-sm text-gray-500">Junior Posição</div>
+              <div className="text-sm text-gray-500">Renata Dias</div>
             </div>
           </div>
         </header>
 
         {/* Time Tracking Card */}
         <div className="bg-white rounded-lg shadow-md p-8 mb-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">electronic point</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Ponto eletronico</h2>
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <span className="text-5xl font-bold text-gray-800">{formatTime(currentTime)}</span>
@@ -111,7 +111,7 @@ function Home() {
         {/* My Timesheet & Quick Links */}
         <div className="bg-white rounded-lg shadow-md p-8">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-2xl font-bold text-gray-800">Point history</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Historico De ponto</h2>
             <div className="flex items-center space-x-2 text-blue-600 font-semibold cursor-pointer hover:text-blue-700">
               
               
@@ -134,48 +134,15 @@ function Home() {
                   <td className="px-6 py-4 whitespace-nowrap">
                     
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1027 H023</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Project</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Task</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">02:00am</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">10/09/2025</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">01:12</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">01:12</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">01:12</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold cursor-pointer hover:text-blue-700">
-                    Submit Leave Request
+                    0 minutos
                   </td>
                 </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1024 N024</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Ptoat</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">End</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">02:00am</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold cursor-pointer hover:text-blue-700">
-                    View Team Schedule
-                  </td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                   
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1027 H027</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Plojek</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Tad</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">03:00am</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">351 Hours</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                   
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1027 H027</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Timekuoar</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Total</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">02:00am</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold cursor-pointer hover:text-blue-700">
-                    Edit Profile
-                  </td>
-                </tr>
+                
               </tbody>
             </table>
           </div>
